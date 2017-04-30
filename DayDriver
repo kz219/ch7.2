@@ -1,0 +1,17 @@
+
+public class DayDriver extends Application {
+
+	public static void main(String[] args) {
+		Day today = new Day("Sunday");
+		System.out.println(today);
+		System.out.println(today.nextDay());
+		System.out.println(today.previousDay());
+		System.out.println(today.calculateDay(10));
+	}
+
+        	@Override
+        	public void start(Stage primaryStage) throws Exception {
+        		// TODO Auto-generated method stub
+
+        	}
+        }
